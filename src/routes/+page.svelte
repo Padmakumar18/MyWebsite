@@ -28,13 +28,13 @@
     {#if visible}
         <div class="container-fluid" in:fly={{ y: 10, duration: 2000 }} out:fade>
             <div class="row p-4 name_pic">
-                <div class="col-lg-8 mt-5">
+                <div class="col-lg-8 col-sm-12 col-md-7 mt-5">
                 <p class="name_font">Padma kumar <span>B.E EEE</span></p>
                 <p class="email">padmakumar41759@gmail.com</p>
                 
                 </div>
-                <div class="col-lg-4">
-                <img class="my_pic" src="{MyPic}" alt="img">
+                <div class="col-lg-4 col-sm-12 col-md-5">
+                    <img class="my_pic" src="{MyPic}" alt="img">
                 </div>
             </div>
 
@@ -198,51 +198,51 @@
             <div class="mt-3 p-3 Certifications">
                 <div class="row">
                     <p class="heading">Certifications</p>
-                    <div class="details col-lg-4 mb-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>AWS Academy Graduate</p>
                         <img src="{AWS}" alt="">
                     </div>
-                    <div class="details col-lg-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Python</p>
                         <img src="{Python}" alt="">
                     </div>
-                    <div class="details col-lg-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Python</p>
                         <img src="{Python2}" alt="">
                     </div>
-                    <div class="details col-lg-4 mb-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Email Etiquette</p>
                         <img src="{EE}" alt="">
                     </div>
-                    <div class="details col-lg-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Group disscusion</p>
                         <img src="{GD}" alt="">
                     </div>
-                    <div class="details col-lg-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Interviw Skills</p>
                         <img src="{IS}" alt="">
                     </div>                    
-                    <div class="details col-lg-4 mb-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Presentation Skills</p>
                         <img src="{PS}" alt="">
                     </div>
-                    <div class="details col-lg-4 ">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Ui Ux for beginners</p>
                         <img src="{UIUX}" alt="">
                     </div>
-                    <div class="details col-lg-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Intro Graphic Design</p>
                         <img src="{GraphicDesign}" alt="">
                     </div>
-                    <div class="details col-lg-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Paper Presentation</p>
                         <img src="{PP1}" alt="">
                     </div>
-                    <div class="details col-lg-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4 mb-4">
                         <p>Paper Publication</p>
                         <img src="{PP2}" alt="">
                     </div>
-                    <div class="details col-lg-4">
+                    <div class="details col-lg-4 col-sm-6 col-md-4">
                         <p>Java</p>
                         <img src="{Java}" alt="">
                     </div>
@@ -358,5 +358,32 @@
         color: white;
         border-radius: 10px 10px 0px 0px ;
     }
+
+    @media (max-width: 991px) 
+    {
+        .my_pic 
+        {
+            width: 15em;
+            height: 15em;
+            object-fit: cover; 
+            border-radius: 50%;
+        }
+
+        .name_font 
+        {
+            font-size : 3em;
+        }
+
+        .email
+        {
+            font-size: 1em;
+        }
+    }
+
+    /* @media (min-width: 600px) and (max-width: 1200px) 
+    {
+
+    } */
+
 </style>    
 <!---------------------------------------------->
