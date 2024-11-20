@@ -71,7 +71,7 @@
                     </div>
                     <div class="details col-lg-3">
                         <b>UG</b>
-                        <p>VSB College of Engineering Technical Campus  <br> 81 % ( 8.14 CGPA ) </p>
+                        <p>VSB College of Engineering Technical Campus  <br>8.14 CGPA</p>
                     </div>
                     <div class="details col-lg-3">
                         <b>PG</b>
@@ -84,6 +84,9 @@
                     <div class="details col-lg-12">
                         <b>Right Angle Solutions Dec 2023 - July 2024</b>
                         <p>Web & Web App Developer</p>
+                        <ul>1) Contributed to full-stack development of web applications using Svelte for frontend components and Supabase for backend services</ul>
+                        <ul>2) Implemented RESTful APIs for seamless data retrieval and dynamic content updates</ul>
+                        <ul>3) Integrated Authentication and Authorization features using JWT (JSON Web Tokens) for secure user login and session management.</ul>
                     </div>
                 </div>
 
